@@ -1,0 +1,33 @@
+{
+  "github": [
+    {
+      "name": "Superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "tags": ["dev", "agents", "workflows"]
+    },
+    {
+      "name": "Claude Templates",
+      "url": "https://github.com/davila7/claude-code-templates",
+      "tags": ["templates", "config", "mcp"]
+    },
+    {
+      "name": "Composio Skills",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "tags": ["general", "apps", "automation"]
+    }
+  ],
+  "marketplaces": [
+    {
+      "name": "Skills.sh",
+      "url": "https://skills.sh",
+      "install_cmd": "npx skillsadd",
+      "tags": ["universal", "67k+"]
+    },
+    {
+      "name": "AITMPL",
+      "url": "https://aitmpl.com",
+      "install_cmd": "npx claude-code-templates@latest",
+      "tags": ["claude-code", "templates"]
+    }
+  ]
+}
