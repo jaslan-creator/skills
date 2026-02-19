@@ -2,7 +2,7 @@
 
 Coleccion curada de skills para [Claude Code](https://docs.anthropic.com/en/docs/claude-code), el CLI de Anthropic. Incluye skills originales en espanol y skills seleccionados de repositorios open source, todos verificados y organizados por categoria.
 
-**23 skills** organizados en **7 categorias** que cubren el ciclo completo de desarrollo de software.
+**24 skills** organizados en **8 categorias** que cubren el ciclo completo de desarrollo de software.
 
 ---
 
@@ -64,6 +64,13 @@ Testing de aplicaciones.
 | Skill | Comando | Descripcion |
 |-------|---------|-------------|
 | [webapp-testing](skills/webapp-testing/) | `/webapp-testing` | Testing de apps web con Playwright: screenshots, logs, automatizacion de UI |
+
+### Seguridad
+Auditoria y testing de seguridad.
+
+| Skill | Comando | Descripcion |
+|-------|---------|-------------|
+| [security-audit](skills/security-audit/) | `/security-audit` | Auditoria completa: OWASP Top 10:2025, codigo, headers, APIs, dependencias, IA/LLM |
 
 ### Herramientas
 Constructores y utilidades.
@@ -143,6 +150,8 @@ skills/
 │   └── SKILL.md
 ├── review/                     # Flujo de Trabajo (ES)
 │   └── SKILL.md
+├── security-audit/             # Seguridad
+│   └── SKILL.md
 ├── skill-scout/                # Herramientas
 │   ├── SKILL.md
 │   ├── sources.json
@@ -211,7 +220,7 @@ Para el dia a dia rapido, usa los skills en espanol:
 
 | Skills | Origen | Licencia |
 |--------|--------|----------|
-| deploy, fix, pr, review, status, resumen, test, reglas-dev, skill-scout | Originales (jaslan-creator) | MIT |
+| deploy, fix, pr, review, status, resumen, test, reglas-dev, skill-scout, security-audit | Originales (jaslan-creator) | MIT |
 | brainstorming, writing-plans, executing-plans, test-driven-development, systematic-debugging, subagent-driven-development, dispatching-parallel-agents, verification-before-completion, requesting-code-review, receiving-code-review, using-git-worktrees, finishing-a-development-branch | [obra/superpowers](https://github.com/obra/superpowers) | MIT |
 | webapp-testing, mcp-builder | [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | Apache 2.0 |
 
